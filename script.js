@@ -12,7 +12,7 @@ window.onload = function() {
     // Show the section corresponding to the current day
     switch (dayOfWeek) {
         case 0:
-            document.getElementById('saturday').style.display = 'block';
+            document.getElementById('sunday').style.display = 'block';
             break;
         case 1:
             document.getElementById('monday').style.display = 'block';
